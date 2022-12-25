@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 1920px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    border-radius: 0px 0px 32px 32px;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 75px 38px 75px;
+}
+
+.logo_info {
+    display: flex;
+    list-style: none;
+    gap: 85px;
+}
+
+.logo_info a {
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+main {
+    margin: 50px 75px 0px 75px;
+    width: 100%;
+}
+
+.carusel_info {
+    width: 837px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 250px;
+    left: 165px;
+}
+
+.carusel_info span {
+    color: #FFFFFF;
+}
+
+.big_text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+}
+
+.medium_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.orange {
+    margin-top: 66px;
+    background: #FF9900;
+    border-radius: 16px;
+    width: 280px;
+    height: 78px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.4581px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: 1px solid #FF9900;
+}
+
+.info_about_ours {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1235px;
+    margin-top: 50px;
+}
+
+.cut_about_you {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.cut_about_you_two {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.info_about_job {
+    margin-top: 50px;
+    display: flex;
+    gap: 32px;
+}
+
+.plus_info {
+    position: absolute;
+    width: 868px;
+    height: 196px;
+    top: 1570px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    padding: 0px 50px 0px 50px;
+}
+
+.about_text {
+    width: 433px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+
+.orange_about {
+
+    width: 175px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 3px solid #FF9900;
+    border-radius: 16px;
+    background: none;
+}
+
+.block_info_about_job {
+    height: 622px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.box_info {
+    width: 870px;
+    height: 295px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 32px;
+    display: flex;
+    padding: 65px 108px 65px 60px;
+    gap: 50px;
+}
+
+.box_info_child {
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box_info_child span {
+    display: block;
+}
+
+.box_text {
+    margin-top: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.about_work {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.work_info {
+    width: 886px;
+    display: flex;
+    flex-direction: column;
+}
+
+.w-k_h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.w-k_ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.work_buttons {
+    display: flex;
+    gap: 32px;
+    margin-top: 18px;
+}
+
+.work_button_one {
+    display: flex;
+    align-items: center;
+    padding: 19px 38px;
+    width: 175px;
+    height: 60px;
+    background: #FF9900;
+    border-radius: 16px;
+    border: #FF9900 solid 1px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.work_button_two {
+    width: 147px;
+    height: 60px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 19px 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.work_img {
+    margin-top: 86px;
+}
+
+.info_about_question {
+    padding: 38px 120px 38px 0px;
+    margin-top: 100px;
+}
+
+.dady_info_about_question {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.children_question_one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.often_question {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+footer {
+    width: 1920px;
+    height: 594px;
+    background-color: #000000;
+    padding: 38px 120px 38px 75px;
+    display: flex;
+    gap: 320px;
+    margin-top: 70px;
+}
+
+.choise_ {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    gap: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.choise_img {
+    margin-top: 90px;
+    display: flex;
+    gap: 10px;
+}
+
+.often_question_1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.baby_foot_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inp {
+    background: rgba(65, 65, 65, 1);
+    color: #FFFFFF;
+}
+
+.seize_one {
+    background: #414141;
+    border-radius: 16px;
+    width: 570px;
+    height: 60px;
+
+
+}
+
+.seize_two {
+    background: #414141;
+    border-radius: 16px;
+    width: 570px;
+    height: 60px;
+}
+
+.seize_three {
+    width: 570px;
+    height: 150px;
+    background: #414141;
+    border-radius: 16px;
+}
+
+.ora {
+    width: 269px;
+    height: 58px;
+    background: #FF9900;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.grey {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CACACA;
+    line-height: 32px;
+}
+
+.foot_button {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.baby_foot_3 {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    width: 363px;
+    height: 320px;
+    justify-content: center;
+}
